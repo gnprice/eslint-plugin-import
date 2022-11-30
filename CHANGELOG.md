@@ -25,6 +25,7 @@ This change log adheres to standards from [Keep a CHANGELOG](https://keepachange
 - [`order`]: require with member expression could not be fixed if alphabetize.order was used ([#2490], thanks [@msvab])
 - [`order`]: leave more space in rankings for consecutive path groups ([#2506], thanks [@Pearce-Ropion])
 - [`no-cycle`]: add ExportNamedDeclaration statements to dependencies ([#2511], thanks [@BenoitZugmeyer])
+- [`no-cycle`]: accept Flow `typeof` imports, just like `type` ([#2608], thanks [@gnprice])
 - [`dynamic-import-chunkname`]: prevent false report on a valid webpack magic comment ([#2330], thanks [@mhmadhamster])
 - [`export`]: do not error on TS export overloads ([#1590], thanks [@ljharb])
 - [`no-unresolved`], [`extensions`]: ignore type only exports ([#2436], thanks [@Lukas-Kullmann])
@@ -1024,6 +1025,7 @@ for info on changes for earlier releases.
 
 [`memo-parser`]: ./memo-parser/README.md
 
+[#2608]: https://github.com/import-js/eslint-plugin-import/pull/2608
 [#2605]: https://github.com/import-js/eslint-plugin-import/pull/2605
 [#2598]: https://github.com/import-js/eslint-plugin-import/pull/2598
 [#2589]: https://github.com/import-js/eslint-plugin-import/pull/2589
@@ -1624,6 +1626,7 @@ for info on changes for earlier releases.
 [@gavriguy]: https://github.com/gavriguy
 [@georeith]: https://github.com/georeith
 [@giodamelio]: https://github.com/giodamelio
+[@gnprice]: https://github.com/gnprice
 [@golergka]: https://github.com/golergka
 [@golopot]: https://github.com/golopot
 [@GoodForOneFare]: https://github.com/GoodForOneFare
